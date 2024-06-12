@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
 });
 
-// const functionApiUrl = 'AccountEndpoint=https://azureresume-pp.documents.azure.com:443/;AccountKey=knZytY5M8GRsQJYbX4dHpzfDqR4jyjPIg6cvMeBEHdPJyqo78aOG1GNsiKMaycWJZmm02emtGT03ACDb40DA1w==;'
+const functionApiUrl = 'https://getresumecounter-pp.azurewebsites.net/api/GetResumeCounter?code=qUABPZ-YoFOs7LTim7mL4FQFfhOYp8zYT61560RhJ8UVAzFufESvog%3D%3D'
 const localFunctionApi = 'http://localhost:7071/api/GetResumeCounter';
 
 const getVisitCount = () => {
